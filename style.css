@@ -1,3 +1,23 @@
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+h5 {
+  font-size: 24px;
+  font-weight: 300;
+}
+
+p {
+  font-weight: 300;
+}
+
 .heroCarousel{
-  height: 450px;
+  background-size: cover;
+  background-position: center;
+}
+
+.aspectRatioBox {
+  padding-top: calc(2 / 3 * 100%); /* aspect ratio 3:2 */
+  background-size: cover;
+  background-position: center;
 }
